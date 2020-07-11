@@ -5,8 +5,22 @@ import {
 } from '../actions/types';
 
 const INITIAL_STATE = {
-  headerLinks: [],
-  navbarLinks: [],
+  headerLinks: [
+    {
+      title: 'yoo ',
+    },
+    {
+      title: 'Yooo ',
+    },
+  ],
+  navbarLinks: [
+    {
+      title: 'account ',
+    },
+    {
+      title: 'purchases ',
+    },
+  ],
   onClick: '',
 };
 

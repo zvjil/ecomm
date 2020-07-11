@@ -77,8 +77,8 @@ export function fetchUserPurchases () {
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Jordan Hudgens',
-          shippingAddress: '1234 West State Street',
+          name: 'Jill Stemm',
+          shippingAddress: '12 State Line Street',
         },
       },
       {
@@ -88,7 +88,7 @@ export function fetchUserPurchases () {
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Maxwell Nelson',
+          name: 'James Stemm',
           shippingAddress: '1337 West State Street',
         },
       },
@@ -99,8 +99,8 @@ export function fetchUserPurchases () {
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Jordan Hudgens',
-          shippingAddress: '1234 West State Street',
+          name: 'Madison Dodson',
+          shippingAddress: '134 Main Street',
         },
       },
       {
@@ -110,30 +110,30 @@ export function fetchUserPurchases () {
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Max Asher Nelson',
-          shippingAddress: '1234 West State Street',
+          name: 'Carter Stemm',
+          shippingAddress: '34 My West State Street',
         },
       },
       {
         _id: 4,
-        total: 19.40,
+        total: 20.22,
         orderNumber: 'A0048248343',
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Jordan Hudgens',
-          shippingAddress: '1234 West State Street',
+          name: 'Jenna Burney',
+          shippingAddress: '1234 State Street',
         },
       },
       {
         _id: 5,
-        total: 19.40,
+        total: 45.67,
         orderNumber: 'A0048248343',
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Jordan Hudgens',
-          shippingAddress: '1234 West State Street',
+          name: 'Jodi Lang',
+          shippingAddress: '124 West State Street',
         },
       },
       {
@@ -143,8 +143,8 @@ export function fetchUserPurchases () {
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Jordan Hudgens',
-          shippingAddress: '1234 West State Street',
+          name: 'Josie Cox',
+          shippingAddress: '124 West Branch Street',
         },
       },
       {
@@ -154,7 +154,7 @@ export function fetchUserPurchases () {
         orderDate: new Date ().toDateString (),
         creditCard: '-0000',
         user: {
-          name: 'Andrew Wold',
+          name: 'Alexis Jameson',
           shippingAddress: '348 Yo State Street',
         },
       },

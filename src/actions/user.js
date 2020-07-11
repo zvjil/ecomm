@@ -20,12 +20,12 @@ import {
 //   };
 // }
 
-// export function setPurchaseDetail (_id) {
-//   return {
-//     type: SET_PURCHASE_DETAIL,
-//     payload: _id,
-//   };
-// }
+export function setPurchaseDetail (_id) {
+  return {
+    type: SET_PURCHASE_DETAIL,
+    payload: _id,
+  };
+}
 
 // export function addCartProduct (product) {
 //   return {

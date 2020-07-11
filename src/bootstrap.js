@@ -7,6 +7,7 @@ import Layout from './components/layout';
 import SignIn from './components/auth/signin';
 import SignUp from './components/auth/signup';
 import reducers from './reducers';
+import Account from './components/account/account';
 
 const createStoreWithMiddleware = applyMiddleware () (
   compose (
@@ -29,6 +30,7 @@ function main () {
             <Route path="/signin" exact component={SignIn} />
             <Route path="/signup" exact component={SignUp} />
 
+            <Route path="/account" exact component={Account} />
           </Switch>
         </Layout>
       </Router>

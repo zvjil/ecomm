@@ -13,6 +13,11 @@ html {
 body {
   font-family: 'Open Sans';
   color: #808080;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @import 'layout';
@@ -21,14 +26,34 @@ body {
 @import 'form-fields';
 @import 'details';
 
-//AUTH
+// AUTH
 @import 'auth/signin';
 @import 'auth/signup';
 
-//ACCOUNT
-@import 'account/purchase-history';
+// ACCOUNT
 @import 'account/account';
+@import 'account/purchase-history';
 @import 'account/account-information';
 
-//SHOP
+// SHOP
 @import 'shop/shop';
+@import 'shop/shop-search-bar';
+@import 'shop/shop-product';
+
+// CART
+@import 'shop/shop-cart';
+@import 'shop/cart-product';
+
+// QUANTITY
+@import 'quantity';
+@import 'green-price-tag';
+
+// // REVIEW
+// @import 'order/review';
+// @import 'order/reviewForm';
+// @import 'order/reviewProduct';
+
+// // INFORMATION
+// @import 'information/payment';
+// @import 'information/shipping';
+// @import 'information/infoHelp';

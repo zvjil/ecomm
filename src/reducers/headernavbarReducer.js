@@ -7,6 +7,7 @@ import {
 const INITIAL_STATE = {
   headerLinks: [],
   navbarLinks: [],
+  onClick: '',
 };
 
 export default function (state = INITIAL_STATE, action) {

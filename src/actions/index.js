@@ -12,12 +12,12 @@ import {
   signIn,
 } from './user';
 
-// import {
-//   fetchShopCategories,
-//   fetchShopProducts,
-//   filterProductsWithCategoryId,
-//   filterProductsWithQuery,
-// } from './shop';
+import {
+  fetchShopCategories,
+  fetchShopProducts,
+  filterProductsWithCategoryId,
+  filterProductsWithQuery,
+} from './shop';
 
 export {
   setHeaderLinks,
@@ -25,11 +25,11 @@ export {
   changeNavbarActive,
   fetchUserPurchases,
   setPurchaseDetail,
-  // fetchCartProducts,
-  // addCartProduct,
-  // signIn,
-  // fetchShopCategories,
-  // fetchShopProducts,
-  // filterProductsWithCategoryId,
-  // filterProductsWithQuery,
+  fetchCartProducts,
+  addCartProduct,
+  signIn,
+  fetchShopCategories,
+  fetchShopProducts,
+  filterProductsWithCategoryId,
+  filterProductsWithQuery,
 };

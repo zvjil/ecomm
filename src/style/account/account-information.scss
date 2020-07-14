@@ -42,7 +42,7 @@
   }
   &__zipcode {
     grid-row: zipcode-s/zipcode-e;
-    transform: translateX(226px);
+    // transform: translateX(226px);
   }
 
   &__state,
@@ -58,6 +58,7 @@
     grid-column: s/m;
     grid-row: change-password-s/change-password-e;
     transform: translateY(-38px);
+    padding-top: 40px;
   }
 
   &__new {
@@ -79,12 +80,14 @@
     grid-row: line-s/line-e;
     grid-column: s/e;
     border-top: 1px solid #ccc;
+    margin-top: 24px;
     margin-bottom: 24px;
   }
 
   &__cancel {
     grid-column: cancel-s/cancel-e;
     grid-row: buttons-s/buttons-e;
+    padding-top: 10px;
   }
 
   &__update-information {

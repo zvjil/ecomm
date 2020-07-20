@@ -27,9 +27,11 @@
   &__plus {
     grid-row: s/m;
     border-radius: 0 3px 0 0;
+    cursor: pointer;
   }
   &__minus {
     grid-row: m/e;
     border-radius: 0 0 3px 0;
+    cursor: pointer;
   }
 }

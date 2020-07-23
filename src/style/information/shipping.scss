@@ -49,6 +49,7 @@
   &__use-this-address {
     grid-row: buttons-s/buttons-e;
     grid-column: use-this-address-s/use-this-address-e;
+    cursor: pointer;
   }
   &__order-summary {
     grid-row: name-s;

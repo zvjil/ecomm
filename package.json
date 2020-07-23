@@ -1,12 +1,9 @@
 {
-  "name": "ecomm",
-  "description": "ecommerce store",
+  "name": "react-redux",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.13.0"
-  },
+  "description": "Basic skeleton codebase for React/Redux applications.",
   "scripts": {
-    "preinstall": "npm set audit false",
+    "postinstall": "cp env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
     "heroku-postbuild": "npm run build",

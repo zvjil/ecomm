@@ -6,19 +6,19 @@ import {
   AUTHENTICATE_USER,
 } from './types';
 
-// export function signIn({email, password}) {
-//   return {
-//     type: AUTHENTICATE_USER,
-//     payload: {
-//       user: {
-//         _id: 0,
-//         name: 'Max Nelson',
-//         address: '1234 I live here',
-//         cartProducts: [],
-//       },
-//     },
-//   };
-// }
+export function signIn({email, password}) {
+  return {
+    type: AUTHENTICATE_USER,
+    payload: {
+      user: {
+        _id: 0,
+        name: 'Jill Stemm',
+        address: '1234 I live here',
+        cartProducts: [],
+      },
+    },
+  };
+}
 
 export function setPurchaseDetail (_id) {
   return {

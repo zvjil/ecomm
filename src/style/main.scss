@@ -48,12 +48,12 @@ body {
 @import 'quantity';
 @import 'green-price-tag';
 
-// // REVIEW
-// @import 'order/review';
-// @import 'order/reviewForm';
-// @import 'order/reviewProduct';
+// REVIEW
+@import 'order/review';
+@import 'order/reviewForm';
+@import 'order/reviewProduct';
 
-// // INFORMATION
-// @import 'information/payment';
-// @import 'information/shipping';
-// @import 'information/infoHelp';
+// INFORMATION
+@import 'information/payment';
+@import 'information/shipping';
+@import 'information/infoHelp';
